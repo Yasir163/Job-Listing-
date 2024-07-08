@@ -1,10 +1,11 @@
 import React from 'react';
 import data from './data.js';
+import headerimage from "../images/bg-header-desktop.svg"
 function JobList() {
     return (
         <div>
             <header className="header">
-                <img src='images/bg-header-desktop.svg' alt="" />
+                <img src={headerimage} alt="" />
             </header>
                 <main className="job-list">
                 <div className="container">
