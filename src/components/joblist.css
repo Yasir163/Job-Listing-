@@ -4,6 +4,7 @@
     margin: 0;
 }
 .header{
+    /* background: url(../images/bg-header-desktop.svg); */
     background-color: hsl(180, 29%, 50%);
     object-fit: cover;
     width: 100%;
@@ -134,6 +135,10 @@
 }
 
 @media (max-width: 768px){
+    .header{
+        /* background:url(../images/bg-header-mobile.svg); */
+        width: 100%;
+    }
     .job-list-main{
         gap: 80px;
     }
